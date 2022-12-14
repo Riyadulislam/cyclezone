@@ -1,0 +1,41 @@
+[
+    {
+      "service_id": 1,
+      "name": "Schwinn Handbrake Bike",
+      "title":"La bike tour",
+      "Location":"Los Angeles,United States",
+      "Size":"Road Bike *Bike Size:155-156",
+      "Status":"Available",
+      "Rating":"4.5",
+      "Day":"30$/day",
+      "Week":"168$/week",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.OXYP8HZtkg0rlEuMKx5jQQHaE7&pid=Api&P=0" 
+   
+    },
+   {
+      "service_id":2,
+      "name": "Super73-Rx Bike",
+      "title":"2022 Bike",
+      "Location":"Los Angeles,United States",
+      "Size":"E-Touring Bike*Bike SIze:Unsize",
+      "Status":"Available",
+      "Rating":"4.5",
+      "Day":"41$/day",
+      "Week":"230$/week",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.OXYP8HZtkg0rlEuMKx5jQQHaE7&pid=Api&P=0" 
+   
+    },
+  {
+      "service_id":3,
+      "name": "GTR Series 3 Bike",
+      "title":"Road Bike",
+      "Location":"Los Angeles,United States",
+      "Size":"Road Bike*Bike Size:175-175",
+      "Status":"on trip-to 30oct",
+      "Rating":"4.5",
+      "Day":"30$/day",
+      "Week":"168$/week",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.OXYP8HZtkg0rlEuMKx5jQQHaE7&pid=Api&P=0" 
+   
+    }
+  ]
