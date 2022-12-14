@@ -29,17 +29,26 @@ const Rentbike = () => {
                     {
                       product.Status=="Available"?
                       <h1 className="mt-2">Booking Status:<button className='bg-green-800 text-white btn-xs rounded-lg'>{product.Status}</button></h1>
-                      :<h1 className="mt-2">Booking Status:<button className='bg-yellow-400 text-white btn-xs rounded-lg'>{product.Status}</button></h1>
+                      :<h1 className="mt-2">Booking Status:<button className='bg-yellow-400 font-semibold btn-xs rounded-lg'>{product.Status}</button></h1>
                     }
                     
                    
-                    <h1 className="mt-2">{product.Rating} <FontAwesomeIcon  className='text-yellow-300' icon={faStar} /> <FontAwesomeIcon  className='text-yellow-300'  icon={faStar} /><FontAwesomeIcon  className='text-yellow-300'  icon={faStar} /><FontAwesomeIcon  className='text-yellow-300' icon={faStar} /><FontAwesomeIcon  className='text-yellow-300'  icon={faStar} /></h1>
+                    
+                    <div className='flex items-center'>
+                    <h1 className="p-1 text-white mt-2 mr-2 border bg-blue-600 rounded-xl">{product.Rating}</h1>
+                    <div>
+                    <FontAwesomeIcon  className='text-yellow-300' icon={faStar} /> <FontAwesomeIcon  className='text-yellow-300'  icon={faStar} /><FontAwesomeIcon  className='text-yellow-300'  icon={faStar} /><FontAwesomeIcon  className='text-yellow-300' icon={faStar} /><FontAwesomeIcon  className='text-yellow-300'  icon={faStar} /> {product.Number}
+                    </div>
+                    </div>
+                    
                   
                   </div>
 
                   <div className='p-4'>
-                    
-                    <p className='text-blue-600'>  <FontAwesomeIcon  className='text-blue-600' icon={faLocationPin} /> {product.Location}</p>
+                    <div className='flex justify-center items-center underline underline-offset-4 '>
+                  <FontAwesomeIcon  className='text-blue-600 mr-3' icon={faLocationPin} />
+                    <p className='text-blue-600'> {product.Location}</p>
+                    </div>
                     <br></br>
                     
                     <p className='font-bold'>{product.Day}</p>
@@ -52,6 +61,7 @@ const Rentbike = () => {
             )
             }
               </div>
+            
            
         </div>
     );
