@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div>
             
-            <Link className='mr-3 text-blue-600'>Home <FontAwesomeIcon icon={faGreaterThan  } />  </Link>
+            <Link className='mr-3 text-blue-600'><Link to='/home'>Home</Link> <FontAwesomeIcon icon={faGreaterThan  } />  </Link>
             <Link className='mr-3 text-blue-600'><Link to='/product'>Product</Link> <FontAwesomeIcon icon={faGreaterThan  } />    </Link>
             <Link>Search Result</Link>
             
