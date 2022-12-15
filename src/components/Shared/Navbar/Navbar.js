@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className="navbar bg-base-100">
   <div className="flex-1">
     <div className='flex justify-center items-center'>
-    <FontAwesomeIcon className='text-white rounded-full bg-blue-400 p-3 mr-3'  icon={faBicycle} />
+    <FontAwesomeIcon className='text-white rounded-full bg-blue-700 p-3 mr-3'  icon={faBicycle} />
     <a className="font-bold text-xl"> Go_Velo</a>
     </div>
   </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
       </label></li>
     
       <li><Link className='border mr-3 '>Login</Link></li>
-      <li><Link className='border bg-blue-600 btn-md'>Register</Link></li>
+      <li><Link className='border text-gray-50 bg-blue-700 btn-md'>Register</Link></li>
     </ul>
   </div>
 </div>

@@ -8,13 +8,13 @@ import Navbar from '../components/Shared/Navbar/Navbar';
 const Main = () => {
     return (
         <div>
-            <div className='pr-20 pl-20'>
+            <div className='pr-36 pl-36'>
             <Navbar ></Navbar>
             <Header></Header>
             <Outlet></Outlet>
             </div>
             <BikeList></BikeList>
-            <div className='pr-20 pl-20'>
+            <div className='pr-36 pl-36'>
             <Footer></Footer>
             </div>
             
